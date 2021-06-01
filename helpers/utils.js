@@ -1,3 +1,4 @@
+require("dotenv").config();
 function env(key, defaultValue = null) {
   const value = process.env[key];
 
