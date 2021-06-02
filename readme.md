@@ -2,7 +2,7 @@
 
 ## Overview
 
-A template for quickly building login systems using Node.js, Express.js MySQL, Passport, bcrypt & sequelize.
+A template for quickly building login systems using Node.js, EJS, Express.js MySQL, Passport, bcrypt & sequelize.
 
 > Demo Users
 >
