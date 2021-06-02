@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "nodemon server.js",
+    "start": "node server.js",
     "db:migrate": "sequelize db:migrate",
     "db:refresh": "npm run db:reset && npm run db:migrate",
     "db:reset": "sequelize db:migrate:undo:all",
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "dotenv": "^8.0.0",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "sequelize-cli": "^5.5.1"
   }
 }
